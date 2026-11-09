@@ -6,5 +6,6 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes)
+    // se conservan los demás proveedores generados por la CLI
   ]
 };
